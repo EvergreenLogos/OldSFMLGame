@@ -1,0 +1,424 @@
+# depslib dependency file v1.0
+1466594342 source:/root/dev/test/main.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/map.hpp"
+	"include/player.hpp"
+	"include/game.hpp"
+	"include/entity.hpp"
+	"include/teleport.hpp"
+
+1467019025 source:/root/dev/test/entity.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/entity.hpp"
+	"include/game.hpp"
+
+1465193042 /root/dev/test/entity.cpp
+	<SFML/Graphics.hpp>
+	<set>
+
+1467074899 /root/dev/test/include/map.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<boost/ptr_container/ptr_list.hpp>
+	<string>
+	"entity.hpp"
+	"teleport.hpp"
+	"player.hpp"
+
+1467074921 source:/root/dev/test/map.cpp
+	"include/map.hpp"
+	<iostream>
+	"include/game.hpp"
+
+1467011920 source:/root/dev/test/player.cpp
+	"include/player.hpp"
+	<iostream>
+	"include/teleport.hpp"
+
+1467003679 /root/dev/test/include/player.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<string.h>
+	"map.hpp"
+	"item.hpp"
+
+1467012335 /root/dev/test/include/entity.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"map.hpp"
+	"item.hpp"
+	"player.hpp"
+
+1466827739 /root/dev/test/include/game.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"map.hpp"
+	"player.hpp"
+	"entity.hpp"
+	"item.hpp"
+
+1467009935 source:/root/dev/test/game.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/map.hpp"
+	"include/player.hpp"
+	"include/game.hpp"
+	"include/teleport.hpp"
+
+1467003911 source:/root/dev/test/teleport.cpp
+	"include/teleport.hpp"
+	<iostream>
+
+1466768028 /root/dev/test/include/teleport.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+
+1466950019 /root/dev/test/include/item.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+
+1467030123 source:/root/dev/test/item.cpp
+	"include/item.hpp"
+	<iostream>
+
+1497131805 source:/root/dev/project/entity.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	<cmath>
+	"include/entity.hpp"
+	"include/map.hpp"
+	"include/system.hpp"
+	"include/item.hpp"
+
+1497111797 /root/dev/project/include/entity.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	<list>
+
+1496546884 /root/dev/project/include/map.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<string>
+	<list>
+	<set>
+
+1496536853 /root/dev/project/include/teleport.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+
+1497113012 /root/dev/project/include/player.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<string.h>
+	<math.h>
+
+1496544108 /root/dev/project/include/item.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+	"system.hpp"
+
+1497022247 /root/dev/project/include/game.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"system.hpp"
+	"asset.hpp"
+
+1497114357 source:/root/dev/project/game.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/map.hpp"
+	"include/player.hpp"
+	"include/game.hpp"
+	"include/teleport.hpp"
+	"include/item.hpp"
+
+1496800339 source:/root/dev/project/item.cpp
+	"include/item.hpp"
+	"include/entity.hpp"
+	<iostream>
+
+1496534844 source:/root/dev/project/main.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/game.hpp"
+
+1497112435 source:/root/dev/project/map.cpp
+	"include/map.hpp"
+	<iostream>
+	"include/game.hpp"
+	"include/entity.hpp"
+
+1497216862 source:/root/dev/project/player.cpp
+	"include/player.hpp"
+	<iostream>
+	"include/item.hpp"
+	"include/entity.hpp"
+	"include/teleport.hpp"
+
+1496548677 source:/root/dev/project/teleport.cpp
+	"include/teleport.hpp"
+	<iostream>
+
+1467468620 /root/dev/project/include/fps.hpp
+
+1496548088 source:/root/dev/project/dialog.cpp
+	"include/dialog.hpp"
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+
+1496536120 /root/dev/project/include/dialog.hpp
+	<SFML/Graphics.hpp>
+	<list>
+	"system.hpp"
+
+1496548345 source:/root/dev/project/inventory.cpp
+	<iostream>
+	"include/inventory.hpp"
+	"include/item.hpp"
+	"include/game.hpp"
+
+1496548198 /root/dev/project/include/inventory.hpp
+	<SFML/Graphics.hpp>
+	<list>
+	<vector>
+	"ui.hpp"
+
+1496547600 /root/dev/project/include/ui.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<string>
+
+1496548709 source:/root/dev/project/ui.cpp
+	"include/ui.hpp"
+	<iostream>
+
+1496547937 source:/root/dev/project/gui.cpp
+	"include/gui.hpp"
+	"include/system.hpp"
+	"include/game.hpp"
+
+1496546191 /root/dev/project/include/gui.hpp
+	<SFML/Graphics.hpp>
+	"ui.hpp"
+
+1496518320 /root/dev/project/include/asset.hpp
+	<SFML/Graphics.hpp>
+
+1496518456 source:/root/dev/project/asset.cpp
+	<iostream>
+	<assert.h>
+	"include/asset.hpp"
+
+1497190067 /root/dev/project/include/system.hpp
+	<SFML/Graphics.hpp>
+	"inventory.hpp"
+	"map.hpp"
+	"player.hpp"
+
+1497374242 source:/root/dev/project/system.cpp
+	<assert.h>
+	<iostream>
+	"include/system.hpp"
+	"include/game.hpp"
+	"include/entity.hpp"
+
+1632524697 source:/root/project/project/asset.cpp
+	<iostream>
+	<assert.h>
+	"include/asset.hpp"
+
+1632524700 /root/project/project/include/asset.hpp
+	<SFML/Graphics.hpp>
+
+1632524697 source:/root/project/project/dialog.cpp
+	"include/dialog.hpp"
+	<SFML/Graphics.hpp>
+	<vector>
+	<iostream>
+
+1632524700 /root/project/project/include/dialog.hpp
+	<SFML/Graphics.hpp>
+	<list>
+	"system.hpp"
+
+1632524700 /root/project/project/include/system.hpp
+	<SFML/Graphics.hpp>
+	"inventory.hpp"
+	"map.hpp"
+	"player.hpp"
+
+1632524700 /root/project/project/include/inventory.hpp
+	<SFML/Graphics.hpp>
+	<list>
+	<vector>
+	"ui.hpp"
+
+1632524700 /root/project/project/include/ui.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<string>
+
+1632524700 /root/project/project/include/map.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<string>
+	<list>
+	<set>
+
+1632524700 /root/project/project/include/player.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<string.h>
+	<math.h>
+
+1632524697 source:/root/project/project/entity.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	<cmath>
+	"include/entity.hpp"
+	"include/map.hpp"
+	"include/system.hpp"
+	"include/item.hpp"
+
+1632524700 /root/project/project/include/entity.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	<list>
+
+1632524700 /root/project/project/include/item.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+	"system.hpp"
+
+1632524697 source:/root/project/project/game.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/map.hpp"
+	"include/player.hpp"
+	"include/game.hpp"
+	"include/teleport.hpp"
+	"include/item.hpp"
+
+1632524700 /root/project/project/include/game.hpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"system.hpp"
+	"asset.hpp"
+
+1632524700 /root/project/project/include/teleport.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	"player.hpp"
+	"map.hpp"
+
+1632524697 source:/root/project/project/gui.cpp
+	"include/gui.hpp"
+	"include/system.hpp"
+	"include/game.hpp"
+
+1632524700 /root/project/project/include/gui.hpp
+	<SFML/Graphics.hpp>
+	"ui.hpp"
+
+1632524697 source:/root/project/project/inventory.cpp
+	<iostream>
+	"include/inventory.hpp"
+	"include/item.hpp"
+	"include/game.hpp"
+
+1632524697 source:/root/project/project/item.cpp
+	"include/item.hpp"
+	"include/entity.hpp"
+	<iostream>
+
+1632524697 source:/root/project/project/main.cpp
+	<SFML/Graphics.hpp>
+	<STP/TMXLoader.hpp>
+	<set>
+	<iostream>
+	<string>
+	"include/game.hpp"
+
+1632524697 source:/root/project/project/map.cpp
+	"include/map.hpp"
+	<iostream>
+	"include/game.hpp"
+	"include/entity.hpp"
+
+1632524697 source:/root/project/project/player.cpp
+	"include/player.hpp"
+	<iostream>
+	"include/item.hpp"
+	"include/entity.hpp"
+	"include/teleport.hpp"
+
+1632524697 source:/root/project/project/system.cpp
+	<assert.h>
+	<iostream>
+	"include/system.hpp"
+	"include/game.hpp"
+	"include/entity.hpp"
+
+1632524697 source:/root/project/project/teleport.cpp
+	"include/teleport.hpp"
+	<iostream>
+
+1632524697 source:/root/project/project/ui.cpp
+	"include/ui.hpp"
+	<iostream>
+

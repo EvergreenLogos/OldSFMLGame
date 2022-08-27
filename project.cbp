@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add library="/usr/lib64/libsfml-graphics.so" />
+					<Add library="/usr/lib64/libsfml-window.so" />
+					<Add library="/usr/lib64/libsfml-system.so" />
+					<Add directory="/root/dev/project/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add library="/root/dev/STP-master/lib/libSTP.so" />
+		</Linker>
+		<Unit filename="asset.cpp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="dialog.cpp" />
+		<Unit filename="entity.cpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="gui.cpp" />
+		<Unit filename="gui.hpp" />
+		<Unit filename="include/asset.hpp" />
+		<Unit filename="include/dialog.hpp" />
+		<Unit filename="include/entity.hpp" />
+		<Unit filename="include/fps.hpp" />
+		<Unit filename="include/game.hpp">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="include/gui.hpp" />
+		<Unit filename="include/inventory.hpp" />
+		<Unit filename="include/item.hpp" />
+		<Unit filename="include/map.hpp" />
+		<Unit filename="include/player.hpp" />
+		<Unit filename="include/system.hpp">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="include/teleport.hpp" />
+		<Unit filename="include/ui.hpp" />
+		<Unit filename="inventory.cpp" />
+		<Unit filename="item.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="player.cpp" />
+		<Unit filename="system.cpp" />
+		<Unit filename="teleport.cpp" />
+		<Unit filename="ui.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
